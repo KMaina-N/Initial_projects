@@ -5,16 +5,6 @@ from pyvirtualdisplay import Display
 from tkinter import*
 
 def gui():
-    name2='urbinised'
-    pasw='Haven787'
-    #greet="Hello there"
-    #print('Hello, I am Robo. I am here to help you manage your instagram')
-    #time.sleep(1)
-    #nam=input('Please input your Username:')
-    #passwo=input('Please input your password:')
-    #print('Please wait as Robo does the tasks for you...')
-    #tag=int(input('Enter the number of people to follow by tags:'))
-    #nametag=input('Please write down the name of the tag, e.g nairob, tembea, safari etc:')
     session=InstaPy(username=str(ename.get()),
         password=str(passw1.get()))
     
