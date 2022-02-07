@@ -52,8 +52,6 @@ def calculate():
     coupon_yield=float(C/P)
     Iyield.config(text=coupon_yield)
 
-    print (int(coupon_yield))
-
 calc=Button(fim, text='Calculate',command=calculate)
 calc.place(x=150, y= 120)
 Iyield=Label(fim,text="",font=Font_tuple, bg='#b7f7f7')
