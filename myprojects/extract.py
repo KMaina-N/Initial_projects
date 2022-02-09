@@ -1,6 +1,6 @@
 import PyPDF2
 import pdfplumber
-from tkinter import*
+
 def command():
     file_path='invoice.pdf'
     invoice=file_path
@@ -14,8 +14,3 @@ def command():
         if row.startswith('Total'):
             balance=row.split()[-1]
     print('balance:'+ '' + balance)
-root=Tk()
-root.title('Show balances of a pdf')
-
-
-root.mainloop()
